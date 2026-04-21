@@ -53,3 +53,8 @@ Este projeto já inclui `vercel.json` para forçar:
 - saída estática em `dist`
 
 Em **Project Settings > Build & Output Settings**, deixe como padrão ou garanta os mesmos valores do `vercel.json`.
+
+
+## Resolução de conflitos
+
+Se houver conflito em `README.md`, `package.json` ou `src/App.jsx`, mantenha as versões atuais destes arquivos (já compatíveis com Vite + React e deploy Vercel) e faça novo deploy.

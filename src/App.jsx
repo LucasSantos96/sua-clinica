@@ -28,7 +28,7 @@ export function App() {
     <div className="page">
       <header className="header container">
         <div className="logo">Sua Clínica <span>ESTÉTICA AVANÇADA</span></div>
-        <nav>{navLinks.map((link) => <a key={link}>{link}</a>)}</nav>
+        <nav>{navLinks.map((link) => <a key={link} href="#">{link}</a>)}</nav>
         <button className="cta">Agendar agora</button>
       </header>
 
@@ -128,7 +128,7 @@ export function App() {
           </div>
           <div>
             <h4>Links rápidos</h4>
-            {navLinks.map((item) => <a key={item}>{item}</a>)}
+            {navLinks.map((item) => <a key={item} href="#">{item}</a>)}
           </div>
           <div>
             <h4>Contato</h4>
